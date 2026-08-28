@@ -1,0 +1,153 @@
+.container-1 {
+  border: 2px solid rgb(1, 1, 29);
+  padding: 0px;
+  height: 70px;
+  margin: 0px;
+  display: flex;
+  background-color: rgb(2, 2, 36);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(10px);
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.judul1 {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+#Judul {
+  gap: 40px;
+  padding: 12px 9px;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+}
+.judul1 img {
+  height: 40px;
+  width: auto;
+  display: flex;
+  padding: 0px;
+}
+.judul1 h2 {
+  display: flex;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  margin-left: 10px;
+  color: #ffff;
+}
+.judul1 h2 span {
+  color: #3b82f6;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 5px 5px;
+  list-style-type: none;
+}
+
+li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.container-2 {
+  padding: 10px;
+  display: flex;
+}
+
+.tentang-seya .teks {
+  border: 2px solid blue;
+  height: auto;
+  display: flex;
+  width: fit-content;
+  border-radius: 15px;
+  background-color: #032b6c;
+  box-shadow: 3px 10px rgba(9, 5, 83, 0.03);
+  margin-bottom: 10px;
+  margin-left: 35px;
+  color: #ffff;
+}
+
+.tentang-seya {
+  padding-left: 50px;
+  margin: 100px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.tentang-seya h1 {
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 30px;
+  margin-top: 0;
+  color: #ffff;
+}
+
+body {
+  background-color: #0b1329;
+  color: #ffffff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-attachment: fixed;
+}
+
+.tentang-seya .deskripsi {
+  padding: 0px;
+  display: flex;
+  margin: 4px;
+  font-display: optional;
+  padding-left: 26px;
+  margin-top: auto;
+}
+
+.tentang-seya .btn-utama {
+  border: 3px solid black;
+  padding: 12px 24px;
+  margin: 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: #2a65c5;
+  color: #ffffff;
+  display: inline-block;
+}
+
+
+
+.tentang-seya .btn-kedua {
+  border: 3px solid rgb(19, 2, 117);
+  border-radius: 20px;
+  padding: 12px 24px;
+  margin: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0b1329;
+  text-align: center;
+  display: inline-block;
+}
+
+.tombol {
+  display: flex;
+  gap: 0px;
+}
+
+img {
+  width: 100%;          
+  max-width: 450px;    
+  height: auto;          
+  margin: 50px;
+  border-radius: 40px;   
+  border: 1px groove rgb(19, 2, 117);
+  box-shadow: 3px 30px  rgba(9, 5, 83, 0.03);
+}
