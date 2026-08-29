@@ -1,0 +1,106 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7f4ee;
+  font-family: arial;
+}
+.container1 {
+  padding: 10px 15px;
+  display: flex;
+  margin: 15px;
+  gap: 60px;
+  align-items: center;
+  min-height: 100px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  list-style: none;
+}
+
+hr {
+  background-color: rgb(168, 93, 61);
+}
+
+#Tombol-Login {
+  position: relative;
+  align-items: flex-end;
+  margin-left: auto;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 14px 20px;
+  background-color: #f7f4ee;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+#Tombol-Login:hover {
+  transform: scale(1.2);
+  outline: none;
+  background-color: rgb(107, 26, 26);
+}
+
+li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(27, 26, 25);
+  transition: all 0.3s ease-in-out;
+}
+
+li a:hover {
+  color: rgb(226, 160, 78);
+}
+
+.container2 {
+  padding: 50px;
+
+  min-height: 70vh;
+  align-items: center;
+  text-align: center;
+}
+
+.halaman-judul {
+  margin: 15px;
+  padding-top: 15px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+.logo-bank{
+  height: 70px;
+}
+
+.tombol-1 {
+  padding: 10px 15px;
+  margin-left: 15px;
+  border: 1px solid black;
+  margin-top: 30px;
+  background-color: rgb(116, 31, 13);
+  transition: all 0.2s ease;
+  color: rgb(227, 219, 219);
+}
+
+.tombol-2 {
+  padding: 10px 15px;
+  margin-left: 15px;
+  border: none;
+  margin: 20px;
+  background-color: #f7f4ee;
+  border-bottom: 1px solid rgb(96, 36, 22);
+  transition: all 0.2s ease;
+}
+
+.tombol-1:hover {
+  letter-spacing: 0.5px;
+}
+
+.tombol-2:hover {
+  letter-spacing: 0.5px;
+}
